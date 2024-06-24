@@ -7,6 +7,14 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "assistant": {
+    "default_open_ai_model": "gpt-4o",
+    "provider": {
+      "name": "openai",
+      "default_model": "gpt-3.5-turbo"
+    }
+  },
+  "show_inline_completions": false,
   "languages": {
     "Rust": {
       "show_copilot_suggestions": false
@@ -19,7 +27,7 @@
     "diagnostics": false
   },
   "vim_mode": true,
-  "buffer_font_size": 18,
+  "buffer_font_size": 16,
   "autosave": "on_focus_change",
   "project_panel": {
     "indent_size": 7
