@@ -2,3 +2,10 @@
 embeddings/*
 prompts/*
 conversations/*
+copilot/*
+db/*
+extensions/*
+logs/*
+node/*
+prettier/*
+
