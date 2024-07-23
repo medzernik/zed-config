@@ -29,8 +29,6 @@
   "project_panel": {
     "indent_size": 7
   },
-  "buffer_font_family": "Zed Mono Extended",
-  "ui_font_family": ".SystemUIFont",
   "terminal": {
     "font_family": "FiraCode Nerd Font Mono"
   },
