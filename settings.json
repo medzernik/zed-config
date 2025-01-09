@@ -4,42 +4,36 @@
 // documentation: https://zed.dev/docs/configuring-zed
 //
 // To see all of Zed's default settings without changing your
-// custom settings, run the open default settings command
-// from the command palette or from Zed application menu.
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "features": {
-    "inline_completion_provider": "none"
-  },
   "assistant": {
-    "default_open_ai_model": "gpt-4o",
-    "provider": {
-      "name": "openai",
-      "default_model": "gpt-3.5-turbo"
-    }
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
   },
   "show_inline_completions": false,
-  "theme": "Ayu Mirage",
-  "telemetry": {
-    "metrics": false,
-    "diagnostics": false
-  },
-  "vim_mode": true,
-  "buffer_font_size": 14,
-  "autosave": "on_focus_change",
-  "project_panel": {
-    "indent_size": 7
-  },
-  "terminal": {
-    "font_family": "FiraCode Nerd Font Mono"
-  },
-  "relative_line_numbers": true,
+  "ui_font_size": 18,
+  "buffer_font_size": 16,
+  "base_keymap": "VSCode",
   "inlay_hints": {
     "enabled": true,
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true
   },
-  "format_on_save": true,
+  "terminal": {
+    "font_family": "TX-02-Variable",
+    "cursor_shape": "bar"
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+  "max_tabs": 5,
+  "format_on_save": "language_server",
   "lsp": {
     "rust-analyzer": {
       "initialization_options": {
@@ -56,7 +50,10 @@
       }
     }
   },
-  "env": {
-    "WOOTING_BG_SERVICE_LOG": "debug"
+  "buffer_font_family": "TX-02-Variable",
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Mirage",
+    "dark": "One Dark"
   }
 }
