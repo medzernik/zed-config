@@ -17,6 +17,12 @@
   "show_inline_completions": false,
   "ui_font_size": 18,
   "buffer_font_size": 16,
+  "indent_guides": {
+    "coloring": "indent_aware"
+  },
+  "project_panel": {
+    "indent_size": 15
+  },
   "base_keymap": "VSCode",
   "inlay_hints": {
     "enabled": true,
@@ -25,7 +31,7 @@
     "show_other_hints": true
   },
   "terminal": {
-    "font_family": "JetBrainsMono Nerd Font Mono",
+    "font_family": "TX-02-Variable",
     "cursor_shape": "bar"
   },
   "telemetry": {
@@ -33,7 +39,7 @@
     "diagnostics": false
   },
   "max_tabs": 5,
-  "format_on_save": "language_server",
+  "format_on_save": "on",
   "lsp": {
     "rust-analyzer": {
       "initialization_options": {
