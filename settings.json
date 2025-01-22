@@ -16,10 +16,11 @@
   },
   "show_inline_completions": false,
   "ui_font_size": 18,
-  "buffer_font_size": 16,
-  "indent_guides": {
-    "enabled": false
+  "centered_layout": {
+    "left_padding": 0.2,
+    "right_padding": 0.2
   },
+  "buffer_font_size": 16,
   "project_panel": {
     "indent_size": 15
   },
@@ -31,7 +32,8 @@
     "show_other_hints": true
   },
   "terminal": {
-    "font_family": "TX-02-Variable",
+    "font_family": "TX-02",
+    "font_fallbacks": ["JetBrainsMono Nerd Font"],
     "cursor_shape": "bar"
   },
   "autosave": "on_focus_change",
@@ -39,6 +41,13 @@
     "metrics": false,
     "diagnostics": false
   },
+
+  "git": {
+    "inline_blame": {
+      "min_column": 120
+    }
+  },
+
   "max_tabs": 5,
   "format_on_save": "on",
   "lsp": {
@@ -52,15 +61,18 @@
           },
           "closureReturnTypeHints": {
             "enable": "always"
+          },
+          "check": {
+            "command": "clippy" // rust-analyzer.check.command (default: "check")
           }
         }
       }
     }
   },
-  "buffer_font_family": "TX-02-Variable",
+  "buffer_font_family": "TX-02",
   "theme": {
     "mode": "system",
     "light": "Ayu Mirage",
-    "dark": "One Dark"
+    "dark": "Ayu Dark"
   }
 }
