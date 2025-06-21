@@ -7,14 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "assistant": {
+  "agent": {
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-5-sonnet-latest"
     },
     "version": "2"
   },
-  "show_inline_completions": false,
+  "show_edit_predictions": false,
   "ui_font_size": 18,
   "centered_layout": {
     "left_padding": 0.2,
