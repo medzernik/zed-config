@@ -7,7 +7,18 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "model_parameters": [],
+    "play_sound_when_agent_done": true,
+    "version": "2"
+  },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
   "show_edit_predictions": false,
+  "preferred_line_length": 120,
+  "wrap_guides": [120],
   "ui_font_size": 18,
   "centered_layout": {
     "left_padding": 0.2,
@@ -69,7 +80,7 @@
   "buffer_font_family": "TX-02-Variable",
   "theme": {
     "mode": "system",
-    "light": "Ayu Mirage",
+    "light": "Ayu Light",
     "dark": "Ayu Mirage"
   }
 }
