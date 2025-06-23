@@ -8,6 +8,7 @@
     "enabled": true,
     "coloring": "indent_aware"
   },
+  "buffer_line_height": "standard",
   "show_edit_predictions": false,
   "preferred_line_length": 120,
   "wrap_guides": [120],
@@ -24,6 +25,7 @@
   "project_panel": {
     "indent_size": 15
   },
+
   "base_keymap": "VSCode",
   "inlay_hints": {
     "enabled": true,
@@ -37,7 +39,8 @@
   "hour_format": "hour24",
   "terminal": {
     "font_family": "JetBrainsMono Nerd Font",
-    "cursor_shape": "bar"
+    "cursor_shape": "bar",
+    "line_height": "standard"
   },
   "autosave": "on_focus_change",
   "telemetry": {
