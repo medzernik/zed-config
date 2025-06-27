@@ -1,8 +1,7 @@
 {
   "agent": {
     "model_parameters": [],
-    "play_sound_when_agent_done": true,
-    "version": "2"
+    "play_sound_when_agent_done": true
   },
   "indent_guides": {
     "enabled": true,
@@ -21,11 +20,12 @@
     "show": "auto"
   },
   "buffer_font_size": 16,
-  "buffer_font_features": { "calt": true },
+  "buffer_font_features": {
+    "calt": true
+  },
   "project_panel": {
     "indent_size": 15
   },
-
   "base_keymap": "VSCode",
   "inlay_hints": {
     "enabled": false,
